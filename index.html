@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- 
+      This is an HTML comment
+      You can write text in a comment and the content won't be visible in the page
+    -->
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!--
+      This is the page head - it contains info the browser uses
+      Like the title, which appears on the browser tab but not inside the page
+      Further down you'll see the content that displays in the page
+    -->
+    <title>Workout Timer</title>
+
+    <!-- The website stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- The website JavaScript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    
+    <div class = "container" id="container">
+      <div class = "timercont">
+        
+        <button class= "dispbtn" id="minus" onmousedown = "startAdjustTime(-60)" onmouseup="stopAdjustTime()">
+            -
+          </button>
+        
+        <div id = "timerDisplay">
+          00:00
+        </div>
+        
+        <button class= "dispbtn" id="plus" onmousedown = "startAdjustTime(60)" onmouseup="stopAdjustTime()">
+            +
+        </button>
+        
+      </div> 
+      
+      
+      <div class = "buttons-container">
+        
+        
+        <div class = "buttons">
+          
+          
+          
+          <button id="start" onclick = "toggleTimer()" disabled="disabled">
+            Start
+          </button>
+          
+          
+        </div>
+        
+        
+        <div class = "buttons">
+          <button id="short" onclick="setShortBreak()">
+            Short<br>Break
+          </button>
+          
+          <button id="reset" onclick="resetTimer()">
+            Reset
+          </button>
+          
+          <button id="long" onclick="setLongBreak()">
+            Long<br>Break
+          </button>
+        </div>
+        
+      </div>
+      
+    </div>
+  </body>
+</html>
