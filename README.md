@@ -13,15 +13,15 @@
 
 To use the Exercise Break Timer widget in Notion:
 
-	1.	Copy the HTML embed code of the timer.
-	2.	In Notion, click on the “+” button to add a new block.
+	1.	Copy the URL (https://workout-break-timer.glitch.me/) of the timer. 
+	2.	In Notion, click on the “/” button to add a new block.
 	3.	Select the “Embed” option.
 	4.	Paste the HTML code and click “Embed Link.”
 	5.	The timer will appear in your Notion page, ready to use.
 
 ## Usage
 
-	1.	Select a Time: Choose a pre-set time (1 or 2 minutes) or set a custom time using the increment/decrement buttons.
+	1.	Select a Time: Choose a pre-set time (1 or 2 minutes) or set a custom time using the increment(+)/decrement(-) buttons.
 	2.	Start the Timer: Hit the Start button to begin the countdown.
 	3.	Pause or Reset: Use the Pause button to pause the timer or Reset to start over.
 
@@ -36,7 +36,7 @@ To use the Exercise Break Timer widget in Notion:
 ## Troubleshooting
 
 	•	Common Issues: The widget should work seamlessly as an HTML embed in Notion. If it doesn’t display correctly, check your browser’s compatibility or try refreshing the page.
-	•	For any other issues, feel free to contact the developer.
+	•	For any other issues, feel free to contact me.
 
 ## Credits and License
 
